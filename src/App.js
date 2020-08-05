@@ -126,7 +126,6 @@ class App extends React.Component {
   }
 
   onAppend = newRow => {
-    console.log(newRow);
     const clonedData = this.state.data
     clonedData.unshift(newRow)
     this.setState({
